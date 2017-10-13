@@ -1,7 +1,10 @@
 body {
-	background-color: black;
+	background-color: #1c1c1c;
+	margin:0;
 }
 
-h1 {
-	color: white;
+header {
+	background-image: url("../img/header-md.png");
+	background-position: center;
+	height: 400px;
 }
