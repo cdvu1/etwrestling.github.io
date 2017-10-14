@@ -19,7 +19,7 @@ header {
     background: linear-gradient(black, #1c1c1c); /* Standard syntax */
 	height: 400px;
 
-	padding-top: 8rem;
+	padding-top: 5rem;
 }
 
 #evg {
@@ -32,10 +32,24 @@ header {
 
 #evg, #tyee {
 	line-height: 0;
-	font-size: 62pt;
+	font-size: 30pt;
 }
 
 #wrestling {
-	font-size: 90pt;
+	font-size: 43pt;
 	color: #f8dc7c;
+}
+
+@media (min-width: 762px) {
+	header {
+		padding-top: 8rem;
+	}
+
+	#evg, #tyee {
+		font-size: 62pt;
+	}
+
+	#wrestling {
+		font-size: 90pt;
+	}
 }
